@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
 }
-
+/* body{
+    overflow: hidden;
+    overflow: scroll;
+} */
 .banner {
     display: flex;
     /* justify-content: space-around; */
@@ -25,4 +28,50 @@
     background-image: url(images/banner/banner1.png);
     height: 808px;
     width: 1600px;
+    overflow: hidden;
+}
+.banner2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    
+}
+.profile-pic{
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: pink;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 50%;
+    /* position: absolute; */
+    /* overflow: hidden; */
+}
+.profile-pic img{
+    height: 434px;
+    width: 329px;
+    position: relative;
+    bottom: 133px;
+    right: 20;
+    right: 16px;
+}
+.banner2-title{
+ padding-right: 180px;
+ font-family: 'Poppins', sans-serif;
+ font-size: 25px;
+ padding-bottom: 20px;
+ color: red;
+}
+.banner2-description{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+.form{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: brown;
+}
+.checkbox{
+    padding: 4px 0;
 }
