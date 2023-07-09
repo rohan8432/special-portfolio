@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.banner-title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 250px;
+    top: 255px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.banner-photo {
+    background-image: url(images/banner/banner1.png);
+    height: 808px;
+    width: 1600px;
+}
