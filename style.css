@@ -29,6 +29,7 @@
     height: 808px;
     width: 1600px;
     overflow: hidden;
+    
 }
 .banner2{
     display: flex;
@@ -75,4 +76,25 @@
 }
 .checkbox{
     padding: 4px 0;
+}
+.plans-title{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+.plan-list{
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.own-plan{
+    padding: 0 70px;
+    text-align: center;
+    
+}
+.plan-sub-heading{
+    color: rgb(88, 87, 87);
 }
