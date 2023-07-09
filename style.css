@@ -147,3 +147,50 @@
     font-weight: bold;
     border: none;
 }
+.future-background{
+    background-color: rgb(26, 23, 23);
+    height: 570px;
+    margin-top: 150px;
+}
+.future{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.left{
+    color: white;
+    /* font-family: 'Poppins', sans-serif; */
+    height:200px ;
+    width: 400px;
+    margin: 150px;
+    
+}
+.future-title{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.future-description{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.email{
+    padding-bottom: 15px;
+}
+.number{
+    padding-bottom: 15px;
+}
+
+.fb{
+ padding-right: 10px;
+}
+.twit{
+    padding-right: 10px;
+}
+
+.right{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height:200px ;
+    width: 400px;
+    margin: 150px;
+}
