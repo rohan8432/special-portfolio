@@ -22,11 +22,12 @@
     top: 255px;
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
+    color: #215e0b;
 }
 
 
 .banner-photo {
-    background-image: url(images/banner/banner1.png);
+    background-image: url(images/banner/banner3.png);
     height: 808px;
     width: 1600px;
     overflow: hidden;
@@ -147,50 +148,86 @@
     font-weight: bold;
     border: none;
 }
-.future-background{
+
+.future-background {
     background-color: rgb(26, 23, 23);
     height: 570px;
     margin-top: 150px;
 }
-.future{
+
+.future {
     display: flex;
     justify-content: space-around;
-    
+
 }
-.left{
+
+.left {
     color: white;
     /* font-family: 'Poppins', sans-serif; */
-    height:200px ;
+    height: 200px;
     width: 400px;
     margin: 150px;
-    
+
 }
-.future-title{
+
+.future-title {
     font-size: 30px;
     padding-bottom: 20px;
 }
-.future-description{
+
+.future-description {
     font-size: 15px;
     padding-bottom: 15px;
 }
-.email{
-    padding-bottom: 15px;
-}
-.number{
+
+.email {
     padding-bottom: 15px;
 }
 
-.fb{
- padding-right: 10px;
+.number {
+    padding-bottom: 15px;
 }
-.twit{
+
+.fb {
     padding-right: 10px;
 }
 
-.right{
+.twit {
+    padding-right: 10px;
+}
+
+.right {
     color: white;
     font-family: 'Poppins', sans-serif;
-    height:200px ;
+    height: 200px;
     width: 400px;
     margin: 150px;
+}
+
+.name-subscribe {
+    padding-bottom: 25px;
+}
+
+.email-input input {
+    background-color: rgb(26, 23, 23);
+    color: white;
+    font-weight: bold;
+    height: 46px;
+    width: 262px;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+
+.subscirbe-btn {
+    background-color: white;
+    color: #e13f00;
+    height: 46px;
+    width: 141px;
+    border: none;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
