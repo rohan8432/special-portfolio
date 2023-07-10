@@ -148,7 +148,14 @@
     font-weight: bold;
     border: none;
 }
+.left {
+    color: white;
+    /* font-family: 'Poppins', sans-serif; */
+    height: 200px;
+    width: 400px;
+    margin: 150px;
 
+}
 .future-background {
     background-color: rgb(26, 23, 23);
     height: 570px;
@@ -161,18 +168,13 @@
 
 }
 
-.left {
-    color: white;
-    /* font-family: 'Poppins', sans-serif; */
-    height: 200px;
-    width: 400px;
-    margin: 150px;
 
-}
 
 .future-title {
     font-size: 30px;
     padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .future-description {
